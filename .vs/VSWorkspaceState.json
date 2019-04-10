@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\lib",
+    "\\lib\\handler",
+    "\\lib\\request",
+    "\\plugins\\fingerprint",
+    "\\plugins\\fingerprint\\server"
+  ],
+  "SelectedNode": "\\wascan.py",
+  "PreviewInSolutionExplorer": false
+}

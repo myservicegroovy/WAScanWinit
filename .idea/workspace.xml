@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebf1afa8-da69-4bb1-8837-10e0afa8ca55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/handler/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/handler/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/request/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/request/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/request/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/request/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/colors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/exception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/payload.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/payload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/printer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/printer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/rand.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/rand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/unicode.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/unicode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/usage.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/usage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/bashi.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/bashi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/blindsqli.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/blindsqli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/bufferoverflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/bufferoverflow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/headersqli.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/headersqli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/headerxss.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/headerxss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/htmli.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/htmli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/ldapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/ldapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/lfi.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/lfi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/oscommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/oscommand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/phpi.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/phpi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/sqli.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/sqli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/ssi.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/ssi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/xpathi.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/xpathi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/xss.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/xss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/attacks/xxe.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/attacks/xxe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/brute/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/brute/params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/fingerprint/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fingerprint/server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wascan.py" beforeDir="false" afterPath="$PROJECT_DIR$/wascan.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rr</find>
+      <find>kwargs</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/request/crawler.py" />
+        <option value="$PROJECT_DIR$/lib/utils/rand.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/bashi.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/headersqli.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/headerxss.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/htmli.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/ldapi.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/bufferoverflow.py" />
+        <option value="$PROJECT_DIR$/lib/utils/params.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/lfi.py" />
+        <option value="$PROJECT_DIR$/lib/utils/payload.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/oscommand.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/phpi.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/sqli.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/ssi.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/xpathi.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/xss.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/xxe.py" />
+        <option value="$PROJECT_DIR$/lib/utils/settings.py" />
+        <option value="$PROJECT_DIR$/lib/utils/usage.py" />
+        <option value="$PROJECT_DIR$/plugins/brute/params.py" />
+        <option value="$PROJECT_DIR$/plugins/attacks/blindsqli.py" />
+        <option value="$PROJECT_DIR$/wascan.py" />
+        <option value="$PROJECT_DIR$/lib/utils/unicode.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WAScan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAScan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAScan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAScan" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAScan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAScan" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAScan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAScan" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAScan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAScan" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAScan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAScan" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAScan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAScan" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="attacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAScan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAScan" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="brute" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="C:/Program Files/Python37-32" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="WAScan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:/Program Files/Python37-32" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wascan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WAScan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wascan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="WAScan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Program Files\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.wascan" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebf1afa8-da69-4bb1-8837-10e0afa8ca55" name="Default Changelist" comment="" />
+      <created>1554209315780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554209315780</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.25669643" />
+      <window_info id="Structure" order="1" sideWeight="0.50490195" side_tool="true" weight="0.25669643" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985119" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.4985119" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/headerxss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+          <folding>
+            <element signature="e#212#235#0" expanded="true" />
+            <element signature="e#500#566#0" expanded="true" />
+            <element signature="e#586#683#0" expanded="true" />
+            <element signature="e#706#1103#0" expanded="true" />
+            <element signature="e#765#807#0" expanded="true" />
+            <element signature="e#1127#1527#0" expanded="true" />
+            <element signature="e#1187#1230#0" expanded="true" />
+            <element signature="e#1616#1662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/htmli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#573#1843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/ldapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#212#231#0" expanded="true" />
+            <element signature="e#559#625#0" expanded="true" />
+            <element signature="e#653#899#0" expanded="true" />
+            <element signature="e#935#1080#0" expanded="true" />
+            <element signature="e#1100#2359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/db/errors/lfi.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/bashi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <element signature="e#212#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/sqli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+          <folding>
+            <element signature="e#212#234#0" expanded="true" />
+            <element signature="e#564#630#0" expanded="true" />
+            <element signature="e#658#937#0" expanded="true" />
+            <element signature="e#973#1114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/xpathi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#212#231#0" expanded="true" />
+            <element signature="e#562#628#0" expanded="true" />
+            <element signature="e#656#903#0" expanded="true" />
+            <element signature="e#939#1084#0" expanded="true" />
+            <element signature="e#1104#2367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/xss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#212#235#0" expanded="true" />
+            <element signature="e#492#558#0" expanded="true" />
+            <element signature="e#578#1850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy" />
+    <entry file="file://$PROJECT_DIR$/lib/db/params.wascan">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="2991" column="2" lean-forward="true" selection-start-line="2991" selection-start-column="2" selection-end-line="2991" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/headersqli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+          <folding>
+            <element signature="e#212#234#0" expanded="true" />
+            <element signature="e#572#638#0" expanded="true" />
+            <element signature="e#666#945#0" expanded="true" />
+            <element signature="e#981#1132#0" expanded="true" />
+            <element signature="e#1152#1262#0" expanded="true" />
+            <element signature="e#1285#1906#0" expanded="true" />
+            <element signature="e#1431#1476#0" expanded="true" />
+            <element signature="e#2077#2123#0" expanded="true" />
+            <element signature="e#2580#3212#0" expanded="true" />
+            <element signature="e#2729#2778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handler/fullscan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#211#242#0" expanded="true" />
+            <element signature="e#411#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/dirs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#239#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37-32/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="869" lean-forward="true" selection-start-line="869" selection-end-line="869" />
+          <folding>
+            <element signature="e#29712#30377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+          <folding>
+            <element signature="e#212#242#0" expanded="true" />
+            <element signature="e#352#1032#0" expanded="true" />
+            <element signature="e#1066#3337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/bufferoverflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#212#223#0" expanded="true" />
+            <element signature="e#546#612#0" expanded="true" />
+            <element signature="e#640#893#0" expanded="true" />
+            <element signature="e#929#1084#0" expanded="true" />
+            <element signature="e#1104#2550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/phpi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#212#235#0" expanded="true" />
+            <element signature="e#484#550#0" expanded="true" />
+            <element signature="e#570#2074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/oscommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#212#235#0" expanded="true" />
+            <element signature="e#490#556#0" expanded="true" />
+            <element signature="e#576#1916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/lfi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding>
+            <element signature="e#212#231#0" expanded="true" />
+            <element signature="e#569#635#0" expanded="true" />
+            <element signature="e#663#908#0" expanded="true" />
+            <element signature="e#944#1099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#211#231#0" expanded="true" />
+            <element signature="e#677#953#0" expanded="true" />
+            <element signature="e#993#1211#0" expanded="true" />
+            <element signature="e#1325#1404#0" expanded="true" />
+            <element signature="e#1448#1524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/rand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#212#237#0" expanded="true" />
+            <element signature="e#340#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/blindsqli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#212#242#0" expanded="true" />
+            <element signature="e#466#532#0" expanded="true" />
+            <element signature="e#552#2122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+          <folding>
+            <element signature="e#212#240#0" expanded="true" />
+            <element signature="e#406#430#0" expanded="true" />
+            <element signature="e#454#621#0" expanded="true" />
+            <element signature="e#648#917#0" expanded="true" />
+            <element signature="e#938#1223#0" expanded="true" />
+            <element signature="e#1241#1606#0" expanded="true" />
+            <element signature="e#1937#1988#0" expanded="true" />
+            <element signature="e#2008#2221#0" expanded="true" />
+            <element signature="e#2266#2528#0" expanded="true" />
+            <element signature="e#2554#2841#0" expanded="true" />
+            <element signature="e#2861#2915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/request/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="e#212#222#0" expanded="true" />
+            <element signature="e#467#519#0" expanded="true" />
+            <element signature="e#544#607#0" expanded="true" />
+            <element signature="e#566#607#0" expanded="true" />
+            <element signature="e#692#712#0" expanded="true" />
+            <element signature="e#4019#4023#0" expanded="true" />
+            <element signature="e#4211#4397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handler/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/unicode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#231#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/printer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#211#241#0" expanded="true" />
+            <element signature="e#428#517#0" expanded="true" />
+            <element signature="e#549#636#0" expanded="true" />
+            <element signature="e#668#758#0" expanded="true" />
+            <element signature="e#789#881#0" expanded="true" />
+            <element signature="e#911#1004#0" expanded="true" />
+            <element signature="e#1019#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/payload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#211#239#0" expanded="true" />
+            <element signature="e#662#1119#0" expanded="true" />
+            <element signature="e#1134#1711#0" expanded="true" />
+            <element signature="e#1726#2082#0" expanded="true" />
+            <element signature="e#2097#2862#0" expanded="true" />
+            <element signature="e#2876#3076#0" expanded="true" />
+            <element signature="e#3092#3608#0" expanded="true" />
+            <element signature="e#3623#3912#0" expanded="true" />
+            <element signature="e#3926#4735#0" expanded="true" />
+            <element signature="e#4748#5266#0" expanded="true" />
+            <element signature="e#5281#6235#0" expanded="true" />
+            <element signature="e#6250#7647#0" expanded="true" />
+            <element signature="e#7662#7868#0" expanded="true" />
+            <element signature="e#7883#8287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#210#219#0" expanded="true" />
+            <element signature="e#334#412#0" expanded="true" />
+            <element signature="e#432#699#0" expanded="true" />
+            <element signature="e#720#980#0" expanded="true" />
+            <element signature="e#1000#1179#0" expanded="true" />
+            <element signature="e#1268#1347#0" expanded="true" />
+            <element signature="e#1367#1654#0" expanded="true" />
+            <element signature="e#1675#1955#0" expanded="true" />
+            <element signature="e#1975#2154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wascan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+          <folding>
+            <element signature="e#920#933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/request/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#214#243#0" expanded="true" />
+            <element signature="e#593#903#0" expanded="true" />
+            <element signature="e#1008#1278#0" expanded="true" />
+            <element signature="e#1307#1658#0" expanded="true" />
+            <element signature="e#1705#2281#0" expanded="true" />
+            <element signature="e#2325#2391#0" expanded="true" />
+            <element signature="e#2431#2526#0" expanded="true" />
+            <element signature="e#2571#2695#0" expanded="true" />
+            <element signature="e#2734#2908#0" expanded="true" />
+            <element signature="e#2957#3257#0" expanded="true" />
+            <element signature="e#3306#3446#0" expanded="true" />
+            <element signature="e#3476#3759#0" expanded="true" />
+            <element signature="e#3806#5088#0" expanded="true" />
+            <element signature="e#5127#6296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/xxe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#212#235#0" expanded="true" />
+            <element signature="e#485#551#0" expanded="true" />
+            <element signature="e#571#1874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/attacks/ssi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#212#235#0" expanded="true" />
+            <element signature="e#487#553#0" expanded="true" />
+            <element signature="e#573#1894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/brute/params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#212#231#0" expanded="true" />
+            <element signature="e#627#693#0" expanded="true" />
+            <element signature="e#713#1117#0" expanded="true" />
+            <element signature="e#1140#1280#0" expanded="true" />
+            <element signature="e#1497#2028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/brute/backdoor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="e#212#231#0" expanded="true" />
+            <element signature="e#590#656#0" expanded="true" />
+            <element signature="e#676#1031#0" expanded="true" />
+            <element signature="e#1054#1196#0" expanded="true" />
+            <element signature="e#1303#1393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
