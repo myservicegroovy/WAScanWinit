@@ -18,6 +18,7 @@ class preplace:
 
 	def get(self):
 		"""get"""
+
 		params = self.url.split("?")[1].split("&")
 		for param in params:
 			ppayload = param.replace(param.split("=")[1],self.payload)
@@ -38,8 +39,12 @@ class preplace:
 		elif "?" not in self.url and self.data != None:
 			self.post()
 		else:
-			self.get()
-			self.post()
+			try:
+				self.get()
+				self.post()
+			except IndexError as e:
+				pass
+
 		return self._params
 
 class padd:
@@ -52,6 +57,7 @@ class padd:
 
 	def get(self):
 		"""get"""
+
 		params = self.url.split("?")[1].split("&")
 		for param in params:
 			ppayload = param.replace(param.split("=")[1],param.split('=')[1]+self.payload)
@@ -72,6 +78,10 @@ class padd:
 		elif "?" not in self.url and self.data != None:
 			self.post()
 		else:
-			self.get()
-			self.post()
+			try:
+				self.get()
+				self.post()
+			except IndexError as e:
+				pass
+
 		return self._params

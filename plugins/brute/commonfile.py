@@ -7,7 +7,7 @@
 # @license: See the file 'LICENSE.txt'
 
 from os import path
-from Queue import Queue
+from queue import Queue
 from threading import Thread 
 from lib.utils.check import *
 from lib.utils.printer import *
@@ -28,7 +28,7 @@ class commonfile(Request):
 		plus('Bruteforce common files...')
 		# set queue to MAX queues
 		queue = Queue(MAX)
-		for _ in xrange(MAX):
+		for _ in range(MAX):
 			# call ThreadBrute class
 			thread = ThreadBrute(self.url,queue,self)
 			# set daemon 
@@ -37,7 +37,7 @@ class commonfile(Request):
 			thread.start()
 		# reading file 
 		for path in readfile(self.search()):
-			queue.put(path)
+			queue.put(path.decode('utf-8'))
 		queue.join()
 
 	def search(self):
@@ -68,12 +68,12 @@ class ThreadBrute(Thread):
 				if req.code == 200:
 					# and req.url == url
 					if CEndUrl(req.url) == url:
-						plus('A potential file was found at: {}'.format(req.url))
+						plus('A potential file was found at: [%s] {}'.format(req.url)%(req.code))
 				# done queue task)
 				self.queue.task_done()
-			except Exception,e:
+			except Exception as e:
 				pass
-			except AttributeError,e:
+			except AttributeError as e:
 				pass
-			except TypeError,e:
+			except TypeError as e:
 				pass

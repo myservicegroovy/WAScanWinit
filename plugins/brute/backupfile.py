@@ -7,7 +7,7 @@
 # @license: See the file 'LICENSE.txt'
 
 from os import path
-from Queue import Queue
+from queue import Queue
 from threading import Thread
 from lib.utils.check import *
 from lib.utils.printer import *
@@ -29,7 +29,7 @@ class backupfile(Request):
         info('Bruteforce backup files...')
         # set queue to MAX queues
         queue = Queue(MAX)
-        for _ in xrange(MAX):
+        for _ in range(MAX):
             # call ThreadBrute class
             thread = ThreadBrute(self.url, queue, self)
             # set daemon
@@ -39,7 +39,7 @@ class backupfile(Request):
         # reading file
         for path in readfile(self.search()):
             # queue put path
-            queue.put(path)
+            queue.put(path.decode('utf-8'))
         queue.join()
 
     def search(self):
@@ -84,9 +84,9 @@ class ThreadBrute(Thread):
                                  .format(path, req.url))
                 # done queue task
                 self.queue.task_done()
-            except Exception, e:
+            except Exception as e:
                 pass
-            except AttributeError, e:
+            except AttributeError as e:
                 pass
-            except TypeError, e:
+            except TypeError as e:
                 pass

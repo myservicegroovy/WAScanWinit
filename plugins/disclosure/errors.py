@@ -62,5 +62,5 @@ def errors(content,url):
 				"</b> on line <b>"
 				)
 	for pattern in patterns:
-		if search(pattern,content):
+		if search(pattern,str(content)):
 			plus("Found: \"%s\" at %s"%(pattern,url))

@@ -32,10 +32,10 @@ class open_redirect(Request):
 		info('Checking Open Redirect..')
 		for path in readfile(self.search()):
 			# check url path
-			url = CPath(self.url,'/')+path
+			url = CPath(self.url,'/')+ str(path)
 			# send request 
 			req = self.Send(url=url,method=self.get)
 			# if status code == 200
-			if search(r'https\:\/\/[www\.]google.com',req.url) or search(r'\<title\>Google\<\/title\>',req.content):
+			if search(r'https\:\/\/[www\.]google.com',req.url) or search(r'\<title\>Google\<\/title\>',str(req.content)):
 				plus('A Potential Open Redirect at: {}'.format(url))
 				break

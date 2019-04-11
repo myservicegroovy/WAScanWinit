@@ -19,18 +19,18 @@ class parse:
 
 	def clean(self):
 		"""Clean HTML Response"""
-		self.content = re.sub('<em>','',self.content)
-		self.content = re.sub('<b>','',self.content)
-		self.content = re.sub('</b>','',self.content)
-		self.content = re.sub('<strong>','',self.content)
-		self.content = re.sub('</strong>','',self.content)
-		self.content = re.sub('</em>','',self.content)
-		self.content = re.sub('<wbr>','',self.content)
-		self.content = re.sub('</wbr>','',self.content)
-		self.content = re.sub('<li>','',self.content)
-		self.content = re.sub('</li>','',self.content)
+		self.content = re.sub('<em>','',str(self.content))
+		self.content = re.sub('<b>','',str(self.content))
+		self.content = re.sub('</b>','',str(self.content))
+		self.content = re.sub('<strong>','',str(self.content))
+		self.content = re.sub('</strong>','',str(self.content))
+		self.content = re.sub('</em>','',str(self.content))
+		self.content = re.sub('<wbr>','',str(self.content))
+		self.content = re.sub('</wbr>','',str(self.content))
+		self.content = re.sub('<li>','',str(self.content))
+		self.content = re.sub('</li>','',str(self.content))
 		for x in ('>', ':', '=', '<', '/', '\\', ';', '&', '%3A', '%3D', '%3C'):
-			self.content = string.replace(self.content,x,' ')
+			self.content = str.replace(self.content,x,' ')
 	
 	def getmail(self):
 		"""Get Emails"""

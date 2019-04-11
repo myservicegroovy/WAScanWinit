@@ -33,7 +33,7 @@ class robots(Request):
 			# and req.content != ""
 			if req.content != "":
 				# findall all robots (allow:.../disallow:...) paths
-				paths += findall(r'[disallow]\: (\S*)',req.content)
+				paths += findall(r'[disallow]\: (\S*)',str(req.content))
 		if paths != None and paths != "":
 			for path in paths:
 				# check url path

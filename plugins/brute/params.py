@@ -39,7 +39,7 @@ class params(Request):
 			thread.start()
 		# reading file 
 		for path in readfile(self.search()):
-			queue.put(path)
+			queue.put(path.decode('utf-8'))
 		queue.join()
 
 	def search(self):

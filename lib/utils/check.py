@@ -13,7 +13,7 @@ from urllib.parse import urlsplit, urljoin
 from lib.utils.rand import r_string
 
 def CPath(url,path):
-	return urljoin(url,path)
+	return urljoin(url,str(path))
 
 def AParams(params):
 	random_string = "%s"%(r_string(10)).upper()

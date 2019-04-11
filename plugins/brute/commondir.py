@@ -8,7 +8,7 @@
 
 from os import path
 from re import search, I
-from Queue import Queue
+from queue import Queue
 from threading import Thread
 from lib.utils.check import *
 from lib.utils.printer import *
@@ -45,7 +45,7 @@ class commondir(Request):
         plus('Bruteforce common dirs...')
         # set queue to MAX queues
         queue = Queue(MAX)
-        for _ in xrange(MAX):
+        for _ in range(MAX):
             # call ThreadBrute class
             thread = ThreadBrute(self.url, queue, self)
             # set daemon
@@ -54,7 +54,7 @@ class commondir(Request):
             thread.start()
         # reading file
         for path in readfile(self.search()):
-            queue.put(path)
+            queue.put(path.decode('utf-8'))
         queue.join()
 
     def search(self):
@@ -96,9 +96,9 @@ class ThreadBrute(Thread):
                             more('Listing enabled for this directory')
                 # done queue task
                 self.queue.task_done()
-            except Exception, e:
+            except Exception as e:
                 pass
-            except AttributeError, e:
+            except AttributeError as e:
                 pass
-            except TypeError, e:
+            except TypeError as e:
                 pass
